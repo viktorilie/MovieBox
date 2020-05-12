@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieBox", "MovieBox\MovieBox.csproj", "{4307DC7F-60FC-4C4D-A5DE-44469F9BA896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4307DC7F-60FC-4C4D-A5DE-44469F9BA896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4307DC7F-60FC-4C4D-A5DE-44469F9BA896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4307DC7F-60FC-4C4D-A5DE-44469F9BA896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4307DC7F-60FC-4C4D-A5DE-44469F9BA896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC33464B-1B10-45BC-B210-624702496679}
+	EndGlobalSection
+EndGlobal
