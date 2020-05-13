@@ -10,10 +10,12 @@ using MovieBox.Data;
 using MovieBox.Models.ViewModels;
 using MovieBox.Utility;
 using MovieBox.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MovieBox.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.ManagerUser)]
     public class MovieController : Controller
     {
 

@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieBox.Data;
 using MovieBox.Models;
+using MovieBox.Utility;
 
 namespace MovieBox.Areas.Admin.Controllers
 {
+
+
     [Area("Admin")]
+    [Authorize(Roles = SD.ManagerUser)]
     public class ActorController : Controller
     {
 
