@@ -4,25 +4,42 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using MovieBox.Data;
 using MovieBox.Models;
+using MovieBox.Models.ViewModels;
 
 namespace MovieBox.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _db;
+
+        public HomeController(ApplicationDbContext db)
         {
-            _logger = logger;
+            _db = db;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            return View();
+            IndexViewModel IndexVM = new IndexViewModel()
+            {
+
+                Movie = await _db.Movie.Include(m => m.Genre).ToListAsync(),
+                Genre = await _db.Genre.ToListAsync()
+
+            };
+
+            return View(IndexVM);
         }
+
+
+
+
 
         public IActionResult Privacy()
         {

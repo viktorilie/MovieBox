@@ -10,7 +10,9 @@ namespace MovieBox.Utility
         public const string DefaultMovieImage = "default_movie.png";
 
         public const string ManagerUser = "Manager";
-        public const string CustomerEndUser = "Customer";
+        public const string EmployeeUser = "Employee";
+        public const string CustomerUser = "Customer";
+        
 
         public const string ssShoppingCartCount = "ssCartCount";
 

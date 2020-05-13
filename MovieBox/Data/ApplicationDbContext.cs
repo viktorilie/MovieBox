@@ -18,6 +18,7 @@ namespace MovieBox.Data
         public DbSet<Actor> Actor { get; set; }
         public DbSet<Director>Director { get; set; }
         public DbSet<Movie>Movie { get; set; }
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
 
     }

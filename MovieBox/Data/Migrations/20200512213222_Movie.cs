@@ -16,7 +16,7 @@ namespace MovieBox.Data.Migrations
                     Description = table.Column<string>(nullable: true),
                     Image = table.Column<string>(nullable: true),
                     GenreId = table.Column<int>(nullable: true),
-                    Price = table.Column<double>(nullable: false)
+                    Price = table.Column<double>(nullable: false),
                 },
                 constraints: table =>
                 {

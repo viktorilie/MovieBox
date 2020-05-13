@@ -491,3 +491,5 @@ C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcor
 C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Movie\Edit.cshtml.g.cs
 C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Movie\Details.cshtml.g.cs
 C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Movie\Delete.cshtml.g.cs
+C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThumbnailAreaPartial.cshtml.g.cs
+C:\Users\vikto\Desktop\movie Project\MovieBox\MovieBox\MovieBox\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
