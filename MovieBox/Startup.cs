@@ -33,7 +33,8 @@ namespace MovieBox
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
