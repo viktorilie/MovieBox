@@ -19,6 +19,8 @@ namespace MovieBox.Data
         public DbSet<Director>Director { get; set; }
         public DbSet<Movie>Movie { get; set; }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<ShoppingCart> ShoppingCart { get; set; }
+
 
 
     }
